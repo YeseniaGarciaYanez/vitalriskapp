@@ -1,5 +1,5 @@
 import { AnonymousMedTechApi, AuthenticationProcess, MedTechApi, User, NativeCryptoPrimitivesBridge } from '@icure/medical-device-sdk'
-import { SimpleMedTechCryptoStrategies } from '@icure/medical-device-sdk/src/services/MedTechCryptoStrategies'
+import { MedTechCryptoStrategies } from "@icure/medical-device-sdk";
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { revertAll, setSavedCredentials } from '../config/PetraState'
 import { FetchBaseQueryError } from '@reduxjs/toolkit/query'
